@@ -74,7 +74,7 @@ document.addEventListener('click', (e) => {
 
 // Первая часть кода:
 
-function someFunc(data) {
+function someFunc1(data) {
   return data.reduce((acc, current) => {
   acc += Number(current.age > 18 && current.isMale)}, 0);
 };
